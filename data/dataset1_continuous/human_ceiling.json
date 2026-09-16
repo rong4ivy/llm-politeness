@@ -1,0 +1,36 @@
+{
+  "n_utterances": 4353,
+  "n_annotators": 5,
+  "n_comparisons": 21765,
+  "regression_metrics": {
+    "pearson_correlation": 0.5624203536664958,
+    "pearson_p_value": 0.0,
+    "spearman_correlation": 0.5382157757236697,
+    "spearman_p_value": 0.0,
+    "r_squared": -0.2682920009523888,
+    "mae": 3.1184700206753964,
+    "rmse": 4.029500821011063
+  },
+  "classification_metrics": {
+    "accuracy": 0.5572708476912475,
+    "f1_macro": 0.5422734384277818,
+    "f1_weighted": 0.5525527233046915,
+    "cohens_kappa": 0.3103616657367143,
+    "binarization_thresholds": {
+      "polite": ">=15",
+      "neutral": "12-14",
+      "impolite": "<=11"
+    }
+  },
+  "per_annotator": {
+    "pearson_correlations": [
+      0.5696290175723759,
+      0.5727410291241588,
+      0.5448469968775012,
+      0.5682891538041086,
+      0.5598434665993979
+    ],
+    "mean_correlation": 0.5630699327955085,
+    "std_correlation": 0.010062578624102541
+  }
+}
